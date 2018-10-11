@@ -1,0 +1,5 @@
+﻿.idea/
+.idea/vcs.xml
+img/
+node_modules/
+package-lock.json
