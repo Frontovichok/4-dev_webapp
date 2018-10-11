@@ -17,6 +17,9 @@ class CourseExtend extends React.Component {
         this.choiceData = this.choiceData.bind(this);
     }
 
+    componentDidMount() {
+        this.choiceData(this.counter);
+    }
     previewData() {
         if (this.state.extendData[--this.counter] !== undefined)
             return {title: this.state.extendData[this.counter].title, data: this.state.extendData[this.counter].data};
@@ -59,8 +62,6 @@ class CourseExtend extends React.Component {
             extendDataTitle: extendData.title,
             extendDataList: extendData.data
         }));
-        // console.log("ref: " + ref);
-        console.log(this.refs);
     }
 
     render() {
