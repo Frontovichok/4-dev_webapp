@@ -45,8 +45,8 @@ class WebDev extends React.Component {
 				imageSrc: "../img/web.jpg",
                 extendData: [
                     {title: "Языки программирования", data: [{title: "Javascript", version: "ES7", img: "../img/js_icon.png"}, {title: "PythonScript", version: "N", img: "../img/js_icon.png"}, {title: "C++Script", version: "N", img: "../img/js_icon.png"}, {title: "PHPScript", version: "N", img: "../img/js_icon.png"}, {title: "...Script", version: "N", img: "../img/js_icon.png"}]},
-                    {title: "Фреймворки", data: [{title: "1", img: "../img/js_icon.png"}, {title: "2", version: "N", img: "../img/js_icon.png"}, {title: "3", version: "N", img: "../img/js_icon.png"}]},
-                    {title: "Базы данных", data: [{title: "MySQL", img: "../img/js_icon.png"}, {title: "YourSQL", version: "N", img: "../img/js_icon.png"}, {title: "UsSQL", version: "N", img: "../img/js_icon.png"}]},
+                    {title: "Фреймворки", data: [{title: "1", version: "N", img: "../img/js_icon.png"}, {title: "2", version: "N", img: "../img/js_icon.png"}, {title: "3", version: "N", img: "../img/js_icon.png"}]},
+                    {title: "Базы данных", data: [{title: "MySQL", version: "N", img: "../img/js_icon.png"}, {title: "YourSQL", version: "N", img: "../img/js_icon.png"}, {title: "UsSQL", version: "N", img: "../img/js_icon.png"}]},
                 ],
                 details: [
                     {title: "Backend разработка", description: "Backend разработка ...", imageSrc: "../img/backend_roadmap.jpg"},
