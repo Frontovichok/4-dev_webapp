@@ -12,12 +12,10 @@ class SignIn extends React.Component {
                     <form className={"sign-container--div"}>
                         <h3>Войдите или зарегайтесь</h3>
                         <span className={"sign-container--span"}>
-                            <input type="email"/>
-                            <label>Почта</label>
+                            <input type="email" placeholder="Почта"/>
                         </span>
                         <span className={"sign-container--span"}>
-                            <input type="text"/>
-                            <label>Пароль</label>
+                            <input type="password" placeholder="Пароль"/>
                         </span>
                         <button className={"sign-container--sign-button"} type="submit">
                             Войти

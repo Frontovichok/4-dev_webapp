@@ -62,7 +62,7 @@ class Home extends React.Component {
 		return (
 			<main>
                 <div className="main_page_head">
-                    <h1>Справочник по актуальному стеку технологий</h1>
+                    <h1>Справочник по актуальному стеку технологий в программировании</h1>
                 </div>
 				<CourseList data-courses={courses}/>
 			</main>
