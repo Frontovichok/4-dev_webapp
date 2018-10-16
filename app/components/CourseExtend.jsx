@@ -81,10 +81,10 @@ class CourseExtend extends React.Component {
                     </div>
                 </div>
                 <div className={"extend_data"}>
-                    <span onClick={this.handleClickPrevious} className={"arrow_left"}></span>
+                    <span onClick={this.handleClickPrevious} className={"previous_data"}></span>
                     <h2>{this.state.extendDataTitle}</h2>
                     <ul>{this.state.extendDataList.map((item, iter) => <li><img src={item.img}/><span className={"extend-data--title"}>{item.title}</span><span className={`extend-data--version${(item.version === "N") ? " color--red" : " color--green"}`}>{item.version}</span></li>)}</ul>
-                    <span onClick={this.handleClickNext} className={"arrow_right"}></span>
+                    <span onClick={this.handleClickNext} className={"next_data"}></span>
                 </div>
                 <Link to={this.props["data-link"]}>ПОДРОБНЕЕ</Link>
             </div>

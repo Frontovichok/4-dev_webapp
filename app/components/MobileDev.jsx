@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Link, Route, Switch} from 'react-router-dom';
 import CourseListExtend from './CourseListExtend.jsx';
 import CourseDetail from './CourseDetail.jsx';
 import NotFound from './NotFound.jsx';
@@ -15,7 +15,7 @@ class MobileDev extends React.Component {
                 title: "Android",
                 description: "Andriod то-то",
                 link: "/mobile/android",
-                imageSrc: "../img/Jellyfish3.jpg",
+                imageSrc: "../img/android.jpg",
                 extendData: [
                     {title: "Языки программирования", data: [{title: "Java", img: "../img/js_icon.png"}]},
                     {title: "Фреймворки", data: [{title: "1", img: "../img/js_icon.png"}, {title: "2", img: "../img/js_icon.png"}, {title: "3", img: "../img/js_icon.png"}]},
@@ -37,7 +37,7 @@ class MobileDev extends React.Component {
                 title: "IOS",
                 description: "IOS то-то",
                 link: "/mobile/ios",
-                imageSrc: "../img/Jellyfish4.jpg",
+                imageSrc: "../img/ios.jpg",
                 extendData: [
                     {title: "Языки программирования", data: [{title: "Swift", img: "../img/js_icon.png"}, {title: "Objective-C", img: "../img/js_icon.png"}]},
                     {title: "Фреймворки", data: [{title: "1", img: "../img/js_icon.png"}, {title: "2", img: "../img/js_icon.png"}, {title: "3", img: "../img/js_icon.png"}]},

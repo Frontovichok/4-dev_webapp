@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, Route, Switch} from 'react-router-dom';
 import Course from './Course.jsx';
 
 class NeuroDev extends React.Component {
@@ -9,7 +10,7 @@ class NeuroDev extends React.Component {
 		];
 		return (
 			<main>
-				<h4>Разработка нейронных сетей</h4>
+                <Link to={"/neuro"} className={"linksHistory"}>Разработка нейронных сетей</Link>
 				<div className={"courseList"}>
 					{coursesData.map( function(course) { return <Course data-src={course.imageSrc} data-title={course.title} data-link={course.link}/>})}
 				</div>
