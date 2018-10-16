@@ -25,11 +25,11 @@ class Course extends React.Component {
 	render() {
 		return (
 			<div className={"course"}>
-                <div className={"img_container"}>
+                <Link to={this.props["data-link"]} className={"img_container"}>
 					<video className={"video"} loop="loop" muted="muted">
 						<source src={this.props["data-src"]} type="video/mp4" />
 					</video>
-				</div>
+                </Link>
 				<Link to={this.props["data-link"]}>{this.props["data-title"]}</Link>
 			</div>
 		)
