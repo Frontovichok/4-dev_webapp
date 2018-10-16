@@ -16,7 +16,7 @@ class WebDev extends React.Component {
             	title: "Frontend",
 				description: "Frontend то-то",
 				link: "/web/frontend",
-				imageSrc: "../img/Jellyfish5.jpg",
+				imageSrc: "../img/frontend_roadmap.jpg",
 				extendData: [
                     {title: "Языки программирования", data: [{title: "Javascript", version: "ES7", img: "../img/js_icon.png"}, {title: "Typescript", version: "2.0", img: "../img/ts_icon.png"}]},
 					{title: "Фреймворки", data: [{title: "React", version: "15", img: "../img/js_icon.png"}, {title: "React Native", version: "N", img: "../img/js_icon.png"}, {title: "Angular", version: "N", img: "../img/js_icon.png"}, {title: "Vue", version: "N", img: "../img/js_icon.png"}]},
@@ -42,7 +42,7 @@ class WebDev extends React.Component {
                 title: "Backend",
 				description: "Backend то-то",
 				link: "/web/backend",
-				imageSrc: "../img/Jellyfish5.jpg",
+				imageSrc: "../img/backend_roadmap.jpg",
                 extendData: [
                     {title: "Языки программирования", data: [{title: "Javascript", version: "ES7", img: "../img/js_icon.png"}, {title: "PythonScript", version: "N", img: "../img/js_icon.png"}, {title: "C++Script", version: "N", img: "../img/js_icon.png"}, {title: "PHPScript", version: "N", img: "../img/js_icon.png"}, {title: "...Script", version: "N", img: "../img/js_icon.png"}]},
                     {title: "Фреймворки", data: [{title: "1", version: "N", img: "../img/js_icon.png"}, {title: "2", version: "N", img: "../img/js_icon.png"}, {title: "3", version: "N", img: "../img/js_icon.png"}]},
