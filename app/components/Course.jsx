@@ -30,7 +30,7 @@ class Course extends React.Component {
 						<source src={this.props["data-src"]} type="video/mp4" />
 					</video>
                 </Link>
-				<Link to={this.props["data-link"]}>{this.props["data-title"]}</Link>
+				<Link to={this.props["data-link"]} className="course-link">{this.props["data-title"]}</Link>
 			</div>
 		)
 	}

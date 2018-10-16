@@ -136,7 +136,7 @@
 .course > div p {
     margin: 1rem 0 2rem;
 }
-.course > a {
+.course-link {
     text-decoration: none;
     width: 100%;
     font-size: 1.1rem;
@@ -146,7 +146,7 @@
     padding: 1rem 0;
     transition: opacity .15s cubic-bezier(.55,.09,.68,.53);
 }
-.course > a:hover {
+.course-link:hover {
     text-decoration: underline;
 }
 .previous_data {

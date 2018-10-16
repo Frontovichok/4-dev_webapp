@@ -86,7 +86,7 @@ class CourseExtend extends React.Component {
                     <ul>{this.state.extendDataList.map((item, iter) => <li><img src={item.img}/><span className={"extend-data--title"}>{item.title}</span><span className={`extend-data--version${(item.version === "N") ? " color--red" : " color--green"}`}>{item.version}</span></li>)}</ul>
                     <span onClick={this.handleClickNext} className={"next_data"}></span>
                 </div>
-                <Link to={this.props["data-link"]}>ПОДРОБНЕЕ</Link>
+                <Link to={this.props["data-link"]} className="course-link">ПОДРОБНЕЕ</Link>
             </div>
         )
     }
