@@ -116,8 +116,7 @@ footer nav {
 	max-width: var(--max_width);
 	margin: auto;
 	padding: 0 12rem 0 12rem;
-	background-color: white;
-	box-shadow: 0 0 10px 0 rgba(107, 127, 165, 0.3);
+	border-top: 1px solid #d9dde0;
 }
 footer > nav > a {
 	text-decoration: none;
