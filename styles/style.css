@@ -17,7 +17,6 @@ html {
 }
 body {
 	height: 100%;
-	background-color: #eef1f6;
 }
 main > h4 {
 	text-align: left;
@@ -165,13 +164,14 @@ ul {
 	min-width: 530px;
 	text-align: center;
 	font-size: 0;
-	background-image: url(../img/Jellyfish5.jpg);
+	background-image: url(../img/main_page_preview.jpg);
 	height: calc(100vh - var(--header-height));
 	max-height: 800px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	/*background-color: white;*/
 	margin-top: calc(0px - var(--header-height));
 	margin-bottom: 1rem;
 }

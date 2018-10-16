@@ -7,7 +7,7 @@ class SignIn extends React.Component {
     }
     render() {
         return (
-            <main style={{backgroundImage: 'url("../img/Jellyfish5.jpg")'}}>
+            <main>
                 <div className={"sign-container"}>
                     <form className={"sign-container--div"}>
                         <h3>Войдите или зарегайтесь</h3>

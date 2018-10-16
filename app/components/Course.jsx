@@ -13,13 +13,11 @@ class Course extends React.Component {
         let courseListElement = document.querySelector(".courseList");
         courseListElement.addEventListener("mouseover", function (event) {
         	if (event.target.className === "video") {
-                // event.target.style.border = "1px solid red";
                 event.target.play();
 			}
         });
         courseListElement.addEventListener("mouseout", function (event) {
             if (event.target.className === "video") {
-                // event.target.style.border = "";
                 event.target.pause();
             }
         })
@@ -28,7 +26,7 @@ class Course extends React.Component {
 		return (
 			<div className={"course"}>
                 <div className={"img_container"}>
-					<video className={"video"} loop="loop">
+					<video className={"video"} loop="loop" muted="muted">
 						<source src={this.props["data-src"]} type="video/mp4" />
 					</video>
 				</div>
