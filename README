@@ -1,2 +1,8 @@
-﻿It's README file
-#change 1
+﻿README
+ Сайт - портфолио(пока что)
+ 
+ Установка
+ npm install
+ 
+ Запуск
+ npm run dev
