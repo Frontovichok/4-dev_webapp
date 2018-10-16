@@ -4,9 +4,6 @@
     flex-wrap: wrap;
     margin: 0 11rem 1rem 11rem;
 }
-.courseList-extend {
-    flex-direction: column;
-}
 .course {
     flex: 505px;
     display: flex;
@@ -39,10 +36,6 @@
 .course > p {
     padding: 1rem 0 .5rem;
 }
-.course-extend {
-    flex: 1;
-    height: 50rem;
-}
 .course-extend > a {
     border-top: 1px solid RGBA(0, 0, 0, 0.58);
 }
@@ -65,7 +58,7 @@
     flex: 0 1 auto;
     height: 500px;
     background-position: center center;
-    background-size: cover;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 .choice-data-container {
