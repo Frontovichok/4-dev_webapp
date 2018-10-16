@@ -53,6 +53,7 @@ class MobileDev extends React.Component {
         ];
 		return (
             <main>
+                <Link to={"/"} className={"linksHistory"}>Главня</Link>
                 <Link to={"/mobile"} className={"linksHistory"}>Мобильные приложения</Link>
                 <Switch>
                     <Route exact path='/mobile' children={() => <CourseListExtend data-courses={courses}/>}/>

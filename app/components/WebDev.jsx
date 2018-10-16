@@ -58,7 +58,8 @@ class WebDev extends React.Component {
 
 		return (
 			<main>
-				<Link to={"/web"} className={"linksHistory"}>Веб сайты</Link>
+				<Link to={"/"} className={"linksHistory"}>Главня</Link>
+                <Link to={"/web"} className={"linksHistory"}>Веб сайты</Link>
 				<Switch>
 					<Route exact path='/web' children={() => <CourseListExtend data-courses={courses}/>}/>
 					<Route path='/web/frontend' children={()=><CourseDetail data-title={courses[0].title} data-content={courses[0].details}/>}/>

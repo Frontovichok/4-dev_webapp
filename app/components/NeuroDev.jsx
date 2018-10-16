@@ -10,6 +10,7 @@ class NeuroDev extends React.Component {
 		];
 		return (
 			<main>
+                <Link to={"/"} className={"linksHistory"}>Главня</Link>
                 <Link to={"/neuro"} className={"linksHistory"}>Разработка нейронных сетей</Link>
 				<div className={"courseList"}>
 					{coursesData.map( function(course) { return <Course data-src={course.imageSrc} data-title={course.title} data-link={course.link}/>})}
