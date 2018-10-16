@@ -23,10 +23,6 @@
     box-shadow: 0 5px 40px 1px rgba(16, 45, 70, 0.2);
     transition: all .3s;
 }
-.course:hover > a {
-    opacity: 1;
-    z-index: 1;
-}
 .course > h3 {
     display: block;
     font-size: 1.5rem;
@@ -149,17 +145,12 @@
 }
 .course > a {
     text-decoration: none;
-    position: absolute;
     width: 100%;
     font-size: 1.1rem;
     text-transform: uppercase;
     background-color: #ffffff;
     color: #040f1b;
     padding: 1rem 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0;
-    z-index: -1;
     transition: opacity .15s cubic-bezier(.55,.09,.68,.53);
 }
 .course > a:hover {
@@ -188,7 +179,7 @@
     margin: 1rem 0 2.5rem;
 }
 .courseDetailArticle > div > h4 {
-    padding: 0px 0px 1rem;
+    padding: 0 0 1rem;
 }
 .courseDetailArticle > div > img {
     display: block;
