@@ -1,7 +1,6 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 import {Link, BrowserRouter} from 'react-router-dom';
-import '../../styles/course.css';
 
 class CourseDetail extends React.Component {
     componentDidMount() {

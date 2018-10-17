@@ -2,6 +2,7 @@ var path = require('path');
 
 module.exports = {
     entry: "./app/app.jsx", // входная точка - исходный файл
+    mode: "development",
     output:{
         path: path.resolve(__dirname, './public'),     // путь к каталогу выходных файлов - папка public
         publicPath: '/public/',
@@ -19,13 +20,6 @@ module.exports = {
                 options:{
                     presets:["env", "react"]    // используемые плагины
                 }
-            },
-            {
-                test: /\.css$/,
-                use:[
-                    'style-loader',
-                    'css-loader'
-                ]
             }
         ]
     }
