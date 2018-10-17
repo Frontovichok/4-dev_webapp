@@ -77,13 +77,13 @@ class CourseExtend extends React.Component {
                 <h3>{this.props["data-title"]}</h3>
                 <div className={"img_container"} style={{backgroundImage: `url(${this.props["data-src"]})`}}>
                     <div className={"choice-data-container"}>
-                        {this.state.extendData.map((item, iter) => <button ref={`button${iter}`} onClick={() => this.choiceData(iter)}>{item.title}</button>)}
+                        {this.state.extendData.map((item, iter) => <button ref={`button${iter}`} onClick={() => this.choiceData(iter)} key={iter}>{item.title}</button>)}
                     </div>
                 </div>
                 <div className={"extend_data"}>
                     <span onClick={this.handleClickPrevious} className={"previous_data"}></span>
                     <h2>{this.state.extendDataTitle}</h2>
-                    <ul>{this.state.extendDataList.map((item, iter) => <li><img src={item.img}/><span className={"extend-data--title"}>{item.title}</span><span className={`extend-data--version${(item.version === "N") ? " color--red" : " color--green"}`}>{item.version}</span></li>)}</ul>
+                    <ul>{this.state.extendDataList.map((item, iter) => <li key={iter}><img src={item.img}/><span className={"extend-data--title"}>{item.title}</span><span className={`extend-data--version${(item.version === "N") ? " color--red" : " color--green"}`}>{item.version}</span></li>)}</ul>
                     <span onClick={this.handleClickNext} className={"next_data"}></span>
                 </div>
                 <Link to={this.props["data-link"]} className="course-link">ПОДРОБНЕЕ</Link>
