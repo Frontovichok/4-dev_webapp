@@ -13,9 +13,9 @@ class CourseDetail extends React.Component {
 			<React.Fragment>
 				<Link to={"#"} className={"linksHistory"}>{this.props["data-title"]}</Link>
 				<article className={"courseDetailArticle"}>
-					{courseContent.map((item) => {
+					{courseContent.map((item, iter) => {
 						return (
-							<React.Fragment>
+							<React.Fragment key={iter}>
 								<h3>{item.title}</h3>
 								<div>
 									<p>{item.description}</p>
